@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_74" class="java.beans.XMLDecoder">
+ <object class="videoclubfichero.ListaPeliculas" id="ListaPeliculas0">
+  <void property="lista">
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>001</string>
+     </void>
+     <void property="duracion">
+      <int>1</int>
+     </void>
+     <void property="genero">
+      <string>Terror</string>
+     </void>
+     <void property="titulo">
+      <string>El hombre que tenia un Windows Phone</string>
+     </void>
+     <void property="valoracion">
+      <int>6</int>
+     </void>
+     <void property="visto">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>002</string>
+     </void>
+     <void property="duracion">
+      <int>190</int>
+     </void>
+     <void property="genero">
+      <string>Drama</string>
+     </void>
+     <void property="titulo">
+      <string>Lo que el viento se llevó</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
