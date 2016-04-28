@@ -245,7 +245,7 @@ public class Menu {
         do {
             duracion = EntradaDatos.pedirEntero("Duración (en minutos)");
             if (duracion < 1) {
-                System.out.println("La duración no puede ser menor a un minuto");
+                System.out.println("La duración no puede ser menor a un minuto de tiempo");
             }
         } while (duracion < 1);
         String genero = EntradaDatos.pedirCadena("Género");
